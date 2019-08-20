@@ -1,12 +1,12 @@
 /**
  * @description Ball Class
  * 
- * @param {*} radius 
- * @param {*} xPos 
- * @param {*} yPos 
- * @param {*} velocityX 
- * @param {*} velocityY 
- * @param {*} color 
+ * @param {*} radius            Radius of ball
+ * @param {*} xPos              Position of ball in X axis
+ * @param {*} yPos              Position of ball in Y axis
+ * @param {*} velocityX         Velocity of ball in X axis
+ * @param {*} velocityY         Velocity of ball in Y axis
+ * @param {*} color             Color of the ball
  */
 
 export const Ball = function (radius, xPos, yPos, velocityX, velocityY, color) {
@@ -18,6 +18,10 @@ export const Ball = function (radius, xPos, yPos, velocityX, velocityY, color) {
     this.color = color;
 }
 
+
+/**
+ * @description Draws the ball on the canvas
+ */
 Ball.prototype.draw = function (ctx) {
     ctx.fillStyle = this.color;
     ctx.beginPath();
@@ -26,6 +30,10 @@ Ball.prototype.draw = function (ctx) {
     ctx.fill();
 }
 
+
+/**
+ * @description Update the ball x and y coordinates
+ */
 Ball.prototype.updatePosition = function(canvasWidth, canvasHeight) {
 
     if(this.xPos + this.vx > canvasWidth - this.radius|| this.xPos + this.vx < this.radius) {

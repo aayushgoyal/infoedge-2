@@ -2,6 +2,7 @@
     margin: 40px 0px;
 }
 
+/*  DETAIL SECTION   */
 
 .wrapper .details-wrapper {
     display: flex;
@@ -31,8 +32,6 @@
     display: inline-grid;
     margin-top: 40px;
 }
-
-
 
 .wrapper .details-wrapper .details-section .details-content {
     padding: 0px 20px;
@@ -108,6 +107,9 @@
 
 
 
+
+/*  COMMUNITY SECTION   */
+
 .wrapper .community-wrapper {
     padding: 3rem 2rem;
     background-color: #f4f7ff;
@@ -151,7 +153,6 @@
     text-align: left;
     font-size: 13px;
     font-weight: 500;
-
 }
 
 @media (max-width: 840px) {
@@ -197,17 +198,13 @@
 
 
 
-
-
-
+/*  CAREER INSIGHTS SECTION   */
 
 .wrapper .carrer-insight-wrapper {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-
-.wrapper .carrer-insight-wrapper .carrer-insight {}
 
 .wrapper .carrer-insight-wrapper .carrer-insight .carrer-insight-header {
     display: flex;

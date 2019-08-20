@@ -1,13 +1,13 @@
 {
-  "name": "infoedge",
+  "name": "Bouncy wall",
   "version": "1.0.0",
-  "description": "",
+  "description": "Bouncy wall game",
   "main": "index.js",
   "scripts": {
     "start": "npm run webpack",
     "webpack": "webpack -d --watch"
   },
-  "author": "",
+  "author": "Aayush Goyal",
   "license": "ISC",
   "dependencies": {
     "babel-loader": "^8.0.6",
