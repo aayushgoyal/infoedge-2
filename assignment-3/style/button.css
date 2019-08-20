@@ -1,0 +1,19 @@
+.btn {
+  border:0px;
+  color: #000;
+  padding: 10px 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-dark {
+    background-color: #3384ff;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: #3384ff;
+    border-radius: 40px;
+}
