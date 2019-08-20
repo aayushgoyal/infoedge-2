@@ -3,7 +3,7 @@
 Consists of 3 assignments
 
 ### Assignment 1
-Upside down the code
+Upside down the game
 
 ### Assignment 2
 Bouncy wall
