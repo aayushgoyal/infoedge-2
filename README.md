@@ -1,6 +1,6 @@
 # ASSIGNMENTS
 
-Consits of 3 assignments
+Consists of 3 assignments
 
 ### Assignment 1
 Upside down the code
